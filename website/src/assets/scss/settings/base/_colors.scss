@@ -4,18 +4,18 @@
 $palette: (
 	light: (
 		1: #ECEDED,
-		2: #9CA9B3,
+		2: #ffffff,
 		3: #717D86
 	),
 	dark: (
-		1: #111213,
-		2: #25282C,
+		1: #FC5090,
+		2: #ffffff,
 		3: #33363A
 	),
 	primary: (
-		1: #6163FF,
+		1: #281941,
 		2: #ACADFF,
-		3: #5658DD,
+		3: #2D164A,
 		4: #E9E9FF
  	),
 	secondary: (
@@ -33,6 +33,7 @@ $palette: (
 
 // Base typography: color
 $color: (
+	pink: 					get-color(dark, 1),
 	heading:				get-color(light, 1),
 	base: 					get-color(light, 2),
 	high-contrast: 			get-color(light, 1),

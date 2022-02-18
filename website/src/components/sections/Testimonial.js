@@ -44,10 +44,9 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: '"Connecting people and cryptocurrencies with education"',
-    paragraph: 'Our platform lets people learn about crypto while earning some at the same time. It lets cryptocurrency organizations fund educational programs to teach people, and gain new users. Join our pilot phase by completing the tutorial bounties below and connect with us on Telegram.'
+    title: 'What is BUIDL Quest?',
+    paragraph: ''
   };
-
   return (
     
     <section
@@ -55,12 +54,7 @@ const Testimonial = ({
       className={outerClasses}
     >
       <div className="container">
-        <div className={innerClasses}>
-        <div className="reveal-from-right" data-reveal-delay="4100">
-          <SectionHeader data={sectionHeader} className="center-content"/>
-          </div>
-
-          <div className="container">
+        <div className="container">
         <div className={innerClasses}>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <div className={tilesClasses}>
@@ -73,10 +67,11 @@ const Testimonial = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Tutorial #1
+                  <span className="text-color-pink"> 👨‍👨‍👧‍👦 Step 1 </span>
                     </h4>
-                  <p className="m-0 text-sm">
-                    Set up an Ethereum Wallet. 
+                  <p className="text-color-primary">
+                   <a href="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0">Register your team. </a> 
+                  Add team members, the bounty you're working on and a description of what you want to do. 
                     </p>
                 </div>
               </div>
@@ -90,11 +85,12 @@ const Testimonial = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Tutorial #2
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Make a XDAI transaction.
-                    </p>
+                     <span className="text-color-pink"> 🚀 Step 2 </span>                  
+                  </h4>
+                  <p className="text-color-primary">
+                  <a href="#">Create your team token </a> using the token launcher. 
+                  Your token name should correspond to your team name, just to make it easier to identify which hackathon prize your team is going for.
+                  </p>
                 </div>
               </div>
             </div>
@@ -107,86 +103,32 @@ const Testimonial = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Tutorial #3
+                  <span className="text-color-pink"> 🦄 Step 2 </span>                  
                     </h4>
-                  <p className="m-0 text-sm">
-                    Understand what cold storage is and how to use it.
-                    </p>
+                  <p className="text-color-primary">
+                  Start posting your micro bounties <a href="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0">here </a>, award bounty hunters or hunt other bounties.
+                  </p>
+                  <span className="text-color-primary">
+                    <a href="https://discord.gg/ZXtBRaUnnn">Join our Discord to start collaborating with teams!</a>
+                  </span>
                 </div>
               </div>
             </div>
-          </div>
+
+          <div className={innerClasses}>
+          <div className="reveal-from-right" data-reveal-delay="200">
+          <SectionHeader data={sectionHeader} className="center-content"/>
+          <p>
+            <ol></ol>
+            <ul>A way to encourage <strong>collaboration</strong> between hackers.</ul>
+            <ul>A way to encourage <strong>participation for all hackers</strong>, even those that don't have ideas or a team.</ul>
+            <ul>A chance for teams to delegate work by creating <strong>micro bounties</strong> for their team members.</ul>
+          </p>
+        </div>
+        </div>
         </div>
       </div>
-
-          <div className={tilesClasses} >
-          {/* bounty #1 */}
-            <div className="tiles-item reveal-from-right" data-reveal-delay="4000">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                <p className="text-sm mb-2">
-                  <strong>1. Prove your ID</strong>
-                  </p>
-                  <p className="text-sm mb-0">
-                     As part of our pilot program, if you sign up with us and can <strong> prove you are living in Venezuela, you'll earn $10!</strong> This is on a first-come-first-serve basis during the pilot phase.
-                  </p>
-                  <p><span role="img" aria-label="sign-up">👋😁</span> </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">$10 reward</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://bdu.dev/">Hunt Bounty</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          
-          {/* bounty #2 */}
-            <div className="tiles-item reveal-from-right" data-reveal-delay="4400">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                <p className="text-sm mb-2">
-                  <strong>2. Create a Wallet</strong>
-                  </p>
-                  <p className="text-sm mb-0">
-                    Complete this tutorial on <strong>creating an Ethereum wallet and earn $10. </strong> You can submit your proofs by following the instructions detailed in the bounty description.               
-                  </p>
-                  <p><span role="img" aria-label="sign-up">💻</span> </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">$10 reward</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://bdu.dev/">Hunt Bounty</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-          {/* bounty #3 */}
-            <div className="tiles-item reveal-from-right" data-reveal-delay="4800">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                <p className="text-sm mb-2">
-                  <strong>3. Hunt "learning bounties"</strong>
-                  </p>
-                  <p className="text-sm mb-0">
-                  Complete this tutorial on <strong>creating a smart contract with your own customized logic.</strong> You can submit your proofs by following the instructions detailed in the bounty description.
-                  </p>
-                  <p><span role="img" aria-label="laptop">🤓</span> </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">$10 reward</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://bdu.dev/">Hunt Bounty</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-          </div>
+      
         </div>
       </div>
     </section>

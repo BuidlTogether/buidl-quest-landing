@@ -1,9 +1,10 @@
 # Buidl Quest
 
 What if hackers at ETHDenver can contribute to multiple projects without needing to only commit to a single team?
-What if you could tokenize the prize your aiming for and create smaller bounties for it that other hackers can work on? 
+What if you could tokenize the prize you're aiming for and create smaller bounties for it that other hackers can work on? 
+We believe in competitive collaboration, or "compet-a-labaration", geared to bring talent together and buidl things in a collaborative way.
 
-BUIDL Quest is a platform that helps you do that.
+**BUIDL Quest** is a platform that helps you do that.
 This is a simple landing page to teach users how to get started and link them to:
 - A token creation page
 - A bounty awarder page 

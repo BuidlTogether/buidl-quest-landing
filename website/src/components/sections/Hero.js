@@ -61,26 +61,22 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Learn
-            </h1>
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="800">        
-            <span className="text-color-light"> and </span>
+              BUIDL Quest
             </h1>
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="1400">
-            <span className="text-color-primary" > Earn </span>
+            <span className="text-color-primary" > Buidling ETHDenver 2022  </span>
             </h1>
 
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="4800">
-                Earn cash by completing tutorials and learning new things.
-                </p>
+              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="1400">
+               Collaborate. Participate. Bountify your bounties.</p>
               <div className="reveal-from-bottom" data-reveal-delay="2650">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://bdu.dev/">
-                    Get started
+                  <Button tag="a" color="primary" wideMobile href="https://launcher.buidl.quest">
+                    Team token launcher
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/BlockDevsUnited">
-                    View on Github
+                  <Button tag="a" color="dark" wideMobile href="https://awarder.buidl.quest">
+                    <div className="text-color-pink"> Team token awarder </div>
                     </Button>
                 </ButtonGroup>
               </div>
