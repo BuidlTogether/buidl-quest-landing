@@ -1,41 +1,56 @@
-# Intro to BDU L-EARN
+# Buidl Quest
 
-Welcome to BDU L-EARN! We are a Learn and Earn community started by [Block Devs United](https://bdu.dev), where you can **learn and earn crypto** at the same time!
+What if hackers at ETHDenver can contribute to multiple projects without needing to only commit to a single team?
+What if you could tokenize the prize your aiming for and create smaller bounties for it that other hackers can work on? 
 
-## Join the community
-Here are the links to our community channels
-* [Block Devs United Discord](https://discord.gg/K6v3NM7j)
-* [Spanish Telegram Channel ](https://t.me/learn_and_earn_crypto)
-* [English Telegram Channel ](https://t.me/bdu_learn)
+BUIDL Quest is a platform that helps you do that.
+This is a simple landing page to teach users how to get started and link them to:
+- A token creation page
+- A bounty awarder page 
 
-## Start Learning and Earning Now
-Start with [Getting started with BDU L-EARN](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/L1:Intro_To_BDU_L-EARN.md) - Reward - 2.5 xDai
+### Available Scripts
 
-Empiece con [Comenzando con BDU - Aprende a ganar](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/L1:Intro_A_BDU_Aprende_Y_Gana.md) - Recompensa - 2.5 xDai
+In the project directory, you can run:
 
-### Beginner Lessons
+#### `npm install`
+To install the dependencies package.
 
-#### English
+#### `npm start`
 
-* [Intro To Ethereum](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/CryptoCurrencies/Ethereum/LCE1:Intro_To_Ethereum.md) - 4 xDai
-* [Intro to xDaiChain](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/CryptoCurrencies/Ethereum/xDaiChain/LCEX1:Intro_To_xDaiChain.md) - 4 xDai
-* [How to use the Devcash Bounty Platform](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/CryptoCurrencies/Ethereum/xDaiChain/dApps/LCEXD3:Devcash_Bounty_Platform.md) - 4 xDai
-* [Contributing to BDU L-EARN](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/Contributing/LCon1:Contributing.md) - 7.5 xDai
-* [Intro to Honeyswap](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/CryptoCurrencies/Ethereum/xDaiChain/1Hive/LCEXH2:Honeyswap.md) - 4 xDai
-* [Intro to Polkadot](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/CryptoCurrencies/Polkadot/LCP1:Intro_To_Polkadot.md) - 0.2 DOT
-* [BrightID](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/English/L_EARN/Identity/LI2:BrightID.md) - 4 xDai
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### Español
-* [Introducción a Ethereum](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/CryptoCurrencies/Ethereum/LCE1:Introduccion_a_Ethereum.md) - 4 xDai
-* [Introducción a xDai](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/CryptoCurrencies/Ethereum/xDaiChain/LCEX1:Introduccion_a_xDaiChain.md) - 4 xDai
-* [Cómo usar Devcash Bounty Platform](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/CryptoCurrencies/Ethereum/xDaiChain/dApps/LCEXD3:Plataforma_De_Recompensas_DevCash.md) - 4 xDai
-* [Contribuyendo con BDU - Aprende a ganar](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/Contributing/LCon1:Contribuyendo.md) - 7.5 xDai
-* [Introducción a HoneySwap](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/CryptoCurrencies/Ethereum/xDaiChain/dApps/LCEXH2:HoneySwap.md) - 4 xDai
-* [Introducción a Polkadot](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/CryptoCurrencies/LCP1:Introduccion_A_Polkadot.md) - 0.2 DOT
-* [BrightID](https://github.com/BlockDevsUnited/learn-and-earn/blob/master/Lessons/Espa%C3%B1ol/Aprende_y_Gana/Identity/LI2:BrightID.md) - 4 xDai
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
+#### `npm test`
 
-### Upcoming Developer Courses
-* [DEX Course](https://github.com/BlockDevsUnited/DEX-Course)
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-More coming soon!
+#### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+#### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+### Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
