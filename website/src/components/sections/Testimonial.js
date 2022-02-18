@@ -88,7 +88,7 @@ const Testimonial = ({
                      <span className="text-color-pink"> 🚀 Step 2 </span>                  
                   </h4>
                   <p className="text-color-primary">
-                  <a href="#">Create your team token </a> using the token launcher.
+                  <a href="https://buidlquestlauncher.surge.sh/">Create your team token </a> using the token launcher.
                   Its an ERC20 on Harmony mainnet.
                   Your token name should correspond to your team name.
                   </p>
@@ -107,7 +107,8 @@ const Testimonial = ({
                   <span className="text-color-pink"> 🦄 Step 3 </span>                  
                     </h4>
                   <p className="text-color-primary">
-                  Start posting your micro bounties <a href="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0">here</a>, award bounty hunters or hunt other team bounties.
+                  Start posting your micro bounties <a href="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0">here</a> or use the sheet to hunt other team bounties.
+                  Ready to award ? Use the <a href="https://buidlquestawarder.surge.sh/">BUIDL Quest awarder</a>.
                   </p>
                   <span className="text-color-primary">
                     <a href="https://discord.gg/ZXtBRaUnnn">Join our Discord to start collaborating with teams!</a>
@@ -120,6 +121,11 @@ const Testimonial = ({
           <div className="reveal-from-right" data-reveal-delay="200">
           <SectionHeader data={sectionHeader} className="center-content"/>
           <p>
+          We're BUIDLing a bounties platform for hackathon teams to trade futures on their potential winnings with each other in exchange for bounty requests. 
+          Team tokens are redeemable for any bounties that are awarded during the hackathon. 
+          If you have 1,000,000 of our 1,000,000,000 BUIDL tokens and we win $50,000, you would get $50.
+          <br></br>
+          BUIDL Quest is:
             <ul>A way to encourage <strong>collaboration</strong> between hackers.</ul>
             <ul>A way to encourage <strong>participation for all hackers</strong>, even those that don't have ideas or a team.</ul>
             <ul>A chance for teams to delegate work by creating <strong>micro bounties</strong> for their projects.</ul>

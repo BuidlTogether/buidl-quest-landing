@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0" onClick={closeMenu}>Register your team</Link>
+                      <a href="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0">Register your team</a>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +120,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="https://discord.gg/ZXtBRaUnnn" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Join the Discord</Link>
+                      <a href="https://discord.gg/ZXtBRaUnnn">Join the Discord</a>
                       </li>
                     </ul>}
                 </div>

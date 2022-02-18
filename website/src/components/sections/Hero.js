@@ -72,10 +72,10 @@ const Hero = ({
                Collaborate. Participate. Bountify your bounties.</p>
               <div className="reveal-from-bottom" data-reveal-delay="2650">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://launcher.buidl.quest">
+                  <Button tag="a" color="primary" wideMobile href="https://buidlquestlauncher.surge.sh/">
                     Team token launcher
-                    </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://awarder.buidl.quest">
+                  </Button>
+                  <Button tag="a" color="dark" wideMobile href="https://buidlquestawarder.surge.sh/">
                     <div className="text-color-pink"> Team token awarder </div>
                     </Button>
                 </ButtonGroup>
