@@ -88,8 +88,9 @@ const Testimonial = ({
                      <span className="text-color-pink"> 🚀 Step 2 </span>                  
                   </h4>
                   <p className="text-color-primary">
-                  <a href="#">Create your team token </a> using the token launcher. 
-                  Your token name should correspond to your team name, just to make it easier to identify which hackathon prize your team is going for.
+                  <a href="#">Create your team token </a> using the token launcher.
+                  Its an ERC20 on Harmony mainnet.
+                  Your token name should correspond to your team name.
                   </p>
                 </div>
               </div>
@@ -103,10 +104,10 @@ const Testimonial = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  <span className="text-color-pink"> 🦄 Step 2 </span>                  
+                  <span className="text-color-pink"> 🦄 Step 3 </span>                  
                     </h4>
                   <p className="text-color-primary">
-                  Start posting your micro bounties <a href="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0">here </a>, award bounty hunters or hunt other bounties.
+                  Start posting your micro bounties <a href="https://docs.google.com/spreadsheets/d/1BPShbPS0q9U7hva5pp8C986LAqsJLUwATaAoXBFFa_g/edit#gid=0">here</a>, award bounty hunters or hunt other team bounties.
                   </p>
                   <span className="text-color-primary">
                     <a href="https://discord.gg/ZXtBRaUnnn">Join our Discord to start collaborating with teams!</a>
@@ -119,10 +120,9 @@ const Testimonial = ({
           <div className="reveal-from-right" data-reveal-delay="200">
           <SectionHeader data={sectionHeader} className="center-content"/>
           <p>
-            <ol></ol>
             <ul>A way to encourage <strong>collaboration</strong> between hackers.</ul>
             <ul>A way to encourage <strong>participation for all hackers</strong>, even those that don't have ideas or a team.</ul>
-            <ul>A chance for teams to delegate work by creating <strong>micro bounties</strong> for their team members.</ul>
+            <ul>A chance for teams to delegate work by creating <strong>micro bounties</strong> for their projects.</ul>
           </p>
         </div>
         </div>
